@@ -1,16 +1,18 @@
 .top-bar {
-  padding-block: 20px;
+  padding-top: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 
   @include on-small-desktop {
-    padding-block: 48px;
+    padding-top: 58px;
   }
 
   &__logo {
     width: 46px;
     height: 28px;
+
+    transition: all 0.5s ease;
 
     &:hover {
       @include hover(

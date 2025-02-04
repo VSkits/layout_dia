@@ -1,9 +1,6 @@
 .header {
   background-color: $header-bgc;
 
-  background-size: cover;
-  background-position: center;
-
   &__nav {
     gap: 48px;
 
@@ -19,4 +16,3 @@
   display: flex;
   gap: 32px;
 }
-

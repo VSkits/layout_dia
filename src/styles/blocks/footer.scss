@@ -1,15 +1,18 @@
-.footer{
+.footer {
   background-color: $header-bgc;
   z-index: 1;
 
-  &__logo{
+  &__logo {
     width: 46px;
     height: 28px;
     display: flex;
     margin-bottom: 48px;
 
+    transition: all 0.5s ease;
+
     &:hover {
-      filter: invert(60%) sepia(76%) saturate(1629%) hue-rotate(206deg) brightness(79%) contrast(115%);
+      filter: invert(60%) sepia(76%) saturate(1629%) hue-rotate(206deg)
+        brightness(79%) contrast(115%);
     }
 
     @include on-tablet {
@@ -22,11 +25,11 @@
   }
 
   &__container {
-    padding-block: 80px;
+    padding-bottom: 80px;
 
     @include on-small-desktop {
       display: flex;
-     justify-content: space-between;
+      justify-content: space-between;
     }
   }
 
@@ -45,5 +48,4 @@
       gap: 64px;
     }
   }
-
 }
