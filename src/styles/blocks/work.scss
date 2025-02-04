@@ -11,14 +11,13 @@
     background-repeat: no-repeat;
   }
 
-
-    &__content {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-    }
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 
   &__title {
     font-size: 44px;
