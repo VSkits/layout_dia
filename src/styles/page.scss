@@ -4,11 +4,6 @@
   scroll-behavior: smooth;
   background-color: $page-bgc;
   min-width: $mobile-min-width;
-  max-width: $design-min-width;
-
-  @include on-design {
-    margin-inline: auto;
-  }
 }
 
 * {

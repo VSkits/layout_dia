@@ -90,7 +90,7 @@
     bottom: 0;
     right: 0;
     height: 680px;
-    width: 45%;
+    width: 49%;
   }
 }
 
@@ -175,7 +175,12 @@
   border-radius: 30px;
   background-size: cover;
   background-repeat: no-repeat;
-  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+
+  transition: opacity 700ms ease-in-out;
 
   &__1 {
     background-image: url(/src/images/slider/slide-img-1.jpg);
@@ -194,5 +199,5 @@
 }
 
 .active {
-  display: block;
+  opacity: 1;
 }
