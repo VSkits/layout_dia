@@ -28,3 +28,7 @@
     gap: 48px;
   }
 }
+
+body:has(aside.menu:target) {
+  overflow: hidden;
+}

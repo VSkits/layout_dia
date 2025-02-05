@@ -108,7 +108,7 @@
     }
   }
 
-  max-width: 280px;
+  min-width: 80%;
 
   @include on-tablet {
     max-width: 264px;
