@@ -81,6 +81,10 @@
   width: 100%;
   position: relative;
 
+  &__wrapper {
+    height: 100%;
+  }
+
   @include on-small-desktop {
     position: absolute;
     bottom: 0;
@@ -168,10 +172,20 @@
 .slide {
   height: 100%;
   width: 100%;
-  display: none;
   border-radius: 30px;
   background-size: cover;
   background-repeat: no-repeat;
+  display: none;
+
+  &__1 {
+    background-image: url(/src/images/slider/slide-img-1.jpg);
+  }
+  &__2 {
+    background-image: url(/src/images/slider/slider2.jpeg);
+  }
+  &__3 {
+    background-image: url(/src/images/slider/slider3.jpeg);
+  }
 
   @include on-small-desktop {
     border-bottom-left-radius: 0;
@@ -180,6 +194,5 @@
 }
 
 .active {
-  display: flex;
-  background-image: url(/src/images/slider/slide-img-1.jpg);
+  display: block;
 }
