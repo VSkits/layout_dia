@@ -1,0 +1,2 @@
+const e=Array.from(document.querySelectorAll(".slide")),t=document.querySelector(".arrow__right"),r=document.querySelector(".arrow__left");document.querySelector(".slider__wrapper");let c=0;r.addEventListener("click",()=>{e[c].classList.remove("active"),c>=e.length-1?c=0:c+=1,e[c].classList.add("active")}),t.addEventListener("click",()=>{e[c].classList.remove("active"),c<1?c=e.length-1:c-=1,e[c].classList.add("active")});
+//# sourceMappingURL=index.6e66174d.js.map
